@@ -3,7 +3,7 @@ var router = express.Router();
 
 // 接続情報を設定
 const { MongoClient } = require("mongodb");
-const url = "ここにMongoDBの接続情報を入れる";
+const url = "++++++++++++";
 const client = new MongoClient(url);
 
 router.get('/', async (req, res) => {
